@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Environment and secrets
+.env
+*.env
+
+# Streamlit config (safe but optional to ignore)
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Audio / Media files (optional, since you have audio_samples folder)
+audio_samples/
+*.mp3
+*.wav
+
+# Logs
+*.log
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+git
